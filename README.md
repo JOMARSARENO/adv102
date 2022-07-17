@@ -1,5 +1,13 @@
 # ADV 102
 
+## Setup Local machine
+```sh
+git clone https://github.com/JOMARSARENO/adv102.git adv102
+cd adv102
+composer install
+php artisan serve
+```
+
 ## Add Authorized Recipient
 1. Go to [https://app.mailgun.com/app/sending/domains/sandbox6fa98ecfa6f64286abd4636b2001e85f.mailgun.org](https://app.mailgun.com/app/sending/domains/sandbox6fa98ecfa6f64286abd4636b2001e85f.mailgun.org)
 1. Add an authorized recipient
